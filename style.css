@@ -1,0 +1,152 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+                        "header header header"
+                        "sidebar content content"
+                        "footer footer footer";
+    border: black 1px solid;
+    grid-gap: 10px;
+    grid-template-columns: 16% 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+
+}
+.content{
+    background-color: blue;
+    grid-area: content;
+}
+.header{
+    background-color: brown;
+    grid-area: header;
+    height: 100px;
+}
+.sidebar{
+    background-color: crimson;
+    grid-area: sidebar;
+}
+.footer{
+    background-color: cyan;
+    grid-area: footer;
+}
+.contain2 {
+    display: grid;
+    grid-template-areas: 
+                        "h k d m rk dm c"
+                        "h v w e rk dm c"
+                        "n v w e rk dm c"
+                        "n r g a rk dm c";
+    grid-template-columns: 3fr 2fr 2fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+}
+.contain2 img {
+    width: 300px;
+    height: 200px;
+}
+.h {
+    background-color: rgb(0, 0, 0);
+    grid-area: h;
+    height: 200px;
+}
+.n {
+    background-color: rgb(0, 37, 247);
+    grid-area: n;
+}
+.k {
+    background-color: purple;
+    grid-area: k;
+}
+.d {
+    background-color: seagreen;
+    grid-area: d;
+}
+.m {
+    background-color: slateblue;
+    grid-area: m;
+}
+.v {
+    background-color: rgb(126, 81, 81);
+    grid-area: v;
+}
+.w {
+    background-color: rgb(92, 0, 100);
+    grid-area: w;
+}
+.e {
+    background-color: midnightblue;
+    grid-area: e;
+}
+.r {
+    background-color: mediumpurple;
+    grid-area: r;
+}
+.g {
+    background-color: lightsalmon;
+    grid-area: g;
+}
+.a {
+    background-color: khaki;
+    grid-area: a;
+}
+.rk {
+    background-color: hotpink;
+    grid-area: rk;
+}
+.dm {
+    background-color: crimson;
+    grid-area: dm;
+}
+.c {
+    background-color: aqua;
+    grid-area: c;
+}
+.container1 {
+    display: grid;
+    grid-template-areas: 
+                        "header1 nav1 sidebar1"
+                        "header1 content2 content2"
+                        "header1 row1 row2"
+                        "header1 content3 content3"
+                        "header1 footer1 footer1";
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 3fr 2fr;
+    margin-bottom: 100px;
+}
+.container2 img {
+    width: 300px;
+    height: 350px;
+}
+.header1 {
+    background-color: coral;
+    grid-area: header;
+}
+.nav1 {
+    background-color: darkcyan;
+    grid-area: nav1;
+    height: 100px;
+}
+.sidebar1 {
+    background-color: darkorchid;
+    grid-area: sidebar1;
+}
+.content2 {
+    background-color: grey;
+    grid-area: content2;
+}
+.row1 {
+    background-color: palevioletred;
+    grid-area: row1;
+}
+.row2 {
+    background-color: slateblue;
+    grid-area: row2;
+}
+.content3 {
+    background-color: wheat;
+    grid-area: content3;
+}
+.footer1 {
+    background-color: olive;
+    grid-area: footer1;
+}
